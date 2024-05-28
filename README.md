@@ -1,51 +1,52 @@
-Markdown
-Python Package 2.0
+```markdown
+# Python Package 2.0
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
-Overview
+## Overview
 
 Python Package 2.0 is a Python package designed to interact with the Zefix API for retrieving detailed information about companies, including acquisition details. The package provides flexible functions to obtain and process company data, supporting both simplified and detailed outputs, and can return data as pandas DataFrames for easier analysis.
 
-Features
+## Features
 
 - Retrieve detailed information about companies using their EHRAID.
 - Flexible output options: list of dictionaries or pandas DataFrame.
 - Translate company purposes and statuses into English.
 - Simplified data retrieval options for quick lookups.
 
-Installation
+## Installation
 
 To install the package, you can use pip:
 
-Exemple
+```bash
 pip install python-package-2.0
+```
 
+## Usage
 
-Usage
+### Example: Retrieving Acquirer Details
 
-Example: Retrieving Acquirer Details
+```python
+from python_package_2.0 import check_acquirers
 
-python
-"from python_package_2.0 import check_acquirers
-
-Example of retrieving acquisition details for a company with EHRAID '110662'
+# Example of retrieving acquisition details for a company with EHRAID '110662'
 ehraid = "110662"
 acquired_details_df = check_acquirers(ehraid, df=True)
-print(acquired_details_df)"
+print(acquired_details_df)
+```
 
-Function Descriptions
+### Function Descriptions
 
-check_acquirers(ehraid, simple=False, df=False)
+#### `check_acquirers(ehraid, simple=False, df=False)`
 
 Retrieves information on companies acquired by the company with the given EHRAID.
 
-Parameters:
-- "ehraid" (str): Unique identifier of the company.
-- "simple" (bool): If True, returns a simplified version of the data.
-- "df" (bool): If True, returns the data as a pandas DataFrame.
+**Parameters:**
+- `ehraid` (str): Unique identifier of the company.
+- `simple` (bool): If True, returns a simplified version of the data.
+- `df` (bool): If True, returns the data as a pandas DataFrame.
 
-Returns:
+**Returns:**
 - List of dictionaries or a pandas DataFrame with acquisition details.
 
 **Example Usage:**
@@ -151,7 +152,7 @@ This function serves as an example to showcase the use of `check_acquirers` func
 
 EHRAID stands for the unique identifier assigned to each company in the Zefix database. It is used to uniquely identify companies for retrieving detailed information.
 
-How do I install dependencies?
+### How do I install dependencies?
 
 You can install the required dependencies using pip. Ensure you have a `requirements.txt` file in your repository that lists all the necessary packages. Then run:
 
@@ -159,6 +160,8 @@ You can install the required dependencies using pip. Ensure you have a `requirem
 pip install -r requirements.txt
 ```
 
-How can I report an issue or suggest a feature?
+### How can I report an issue or suggest a feature?
 
-Please use the GitHub issues tracker to report any issues or suggest new features. Make sure to follow the template provided for consistency and clarity.  
+Please use the GitHub issues tracker to report any issues or suggest new features. Make sure to follow the template provided for consistency and clarity.
+
+---
