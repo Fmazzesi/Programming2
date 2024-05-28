@@ -14,7 +14,7 @@ Python Package 2.0 is a Python package designed to interact with the Zefix API f
 To install the package, you can use pip:
 
 ```bash
-pip install python-package-2.0
+pip install python_package_2.0
 ```
 
 ## Usage
