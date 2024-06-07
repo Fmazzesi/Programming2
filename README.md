@@ -9,13 +9,6 @@ Python Package 2.0 is a Python package designed to interact with the Zefix API f
 - Translate company purposes and statuses into English.
 - Simplified data retrieval options for quick lookups.
 
-## Installation
-
-To install the package, you can use pip:
-
-```bash
-pip install python_package_2.0
-```
 
 ## Usage
 
@@ -73,17 +66,6 @@ acquired_details_df = get_acquisitions_data('421132', df=True)
 print(acquired_details_df)
 ```
 
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request with your improvements.
-
-### How to Contribute
-
-1. Fork the repository.
-2. Create a new branch for your feature or bugfix.
-3. Make your changes and commit them with clear messages.
-4. Push your changes to your forked repository.
-5. Open a pull request to the main repository.
 
 ## License
 
@@ -143,13 +125,6 @@ This function serves as an example to showcase the use of `check_acquirers` func
 
 EHRAID stands for the unique identifier assigned to each company in the Zefix database. It is used to uniquely identify companies for retrieving detailed information.
 
-### How do I install dependencies?
-
-You can install the required dependencies using pip. Ensure you have a `requirements.txt` file in your repository that lists all the necessary packages. Then run:
-
-```bash
-pip install -r requirements.txt
-```
 
 ### How can I report an issue or suggest a feature?
 
