@@ -1,0 +1,15 @@
+For this package you need to(if you haven't already given it):
+
+#!pip install googletrans==4.0.0-rc1
+#!pip install requests
+#!pip install pandas
+#!pip install matplotlib
+#!pip install googletrans==4.0.0-rc1
+
+Then you have to:
+
+import requests
+import json
+import pandas as pd
+import matplotlib.pyplot as plt
+from googletrans import Translator
