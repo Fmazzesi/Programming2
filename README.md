@@ -1,6 +1,6 @@
 ## Overview
 
-Python Package 2.0 is a Python package designed to interact with the Zefix API for retrieving detailed information about companies, including acquisition details. The package provides flexible functions to obtain and process company data, supporting both simplified and detailed outputs, and can return data as pandas DataFrames for easier analysis.
+Zefix-Advanced-Tool is a Python package designed to interact with the Zefix API for retrieving detailed information about companies, including acquisition details. The package provides flexible functions to obtain and process company data, supporting both simplified and detailed outputs, and can return data as pandas DataFrames for easier analysis.
 
 ## Features
 
