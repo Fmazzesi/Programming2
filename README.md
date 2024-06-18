@@ -125,9 +125,4 @@ This function serves as an example to showcase the use of `check_acquirers` func
 
 EHRAID stands for the unique identifier assigned to each company in the Zefix database. It is used to uniquely identify companies for retrieving detailed information.
 
-
-### How can I report an issue or suggest a feature?
-
-Please use the GitHub issues tracker to report any issues or suggest new features. Make sure to follow the template provided for consistency and clarity.
-
 ---
