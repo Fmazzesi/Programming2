@@ -1,15 +1,3 @@
-#!pip install googletrans==4.0.0-rc1
-#!pip install requests
-#!pip install pandas
-#!pip install matplotlib
-#!pip install googletrans==4.0.0-rc1
-
-import requests
-import json
-import pandas as pd
-import matplotlib.pyplot as plt
-from googletrans import Translator
-
 ## FUNCTION 1
 def search_companies_named(name, simple=False, save=False, df=True):
 
