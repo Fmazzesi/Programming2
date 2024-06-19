@@ -1,3 +1,10 @@
+import sys, os
+import requests
+import json
+import pandas as pd
+import matplotlib.pyplot as plt
+from googletrans import Translator
+
 ## FUNCTION 1
 def search_companies_named(name, simple=False, save=False, df=True):
 
