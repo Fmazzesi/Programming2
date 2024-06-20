@@ -776,6 +776,14 @@ acquirers_df
 -Nicola Robatto
 -Brenda Navarrete
 
+## References:
+
+OpenAI, ChatGPT. https://www.openai.com/chatgpt
+
+GitHub, GitHub Copilot. https://github.com/features/copilot
+
+Swiss Federal Office of Justice, Swiss Federal Registry of Commerce. https://www.zefix.admin.ch
+
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
@@ -784,5 +792,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ### What is an EHRAID
 
-EHRAID (Enterprise Harmonized Registry and Identification) is a unique identifier for Swiss companies. It is used to uniquely identify businesses registered in Switzerland, ensuring consistency and reliability in business identification across various systems and databases.
+EHRAID (Enterprise Harmonized Registry and Identification) is a unique identifier for Swiss companies. It is used to uniquely identify businesses registered in Switzerland, ensuring consistency and reliability in business identification across various systems and databases. To get the ehraid of a specific company, look its name up using function search_companies_named.
 
