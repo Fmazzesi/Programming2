@@ -771,4 +771,18 @@ acquirers_df
 </table>
 </div>
 
+## Credits
+-Filippo Luigi Mazzesi 
+-Nicola Robatto
+-Brenda Navarrete
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## FAQ
+
+### What is an EHRAID
+
+EHRAID (Enterprise Harmonized Registry and Identification) is a unique identifier for Swiss companies. It is used to uniquely identify businesses registered in Switzerland, ensuring consistency and reliability in business identification across various systems and databases.
 
