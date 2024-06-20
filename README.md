@@ -1,5 +1,3 @@
-# Example of using the Zefix Advanced Tool
-
 ## Introduction
 
 The Python package developed is designed to interact with the Swiss Official Gazette of Commerce (Zefix) API to retrieve detailed information about companies, including their acquisitions and organizational details. This package could be useful for financial analysts, market researchers, business consultants, and anyone interested in Swiss company data. It's entirely built to work with the Zefix API https://www.zefix.ch/en/search/entity/welcome.
@@ -7,6 +5,63 @@ The Python package developed is designed to interact with the Swiss Official Gaz
 The following documentation provides a comprehensive guide on how to install and use this package. It also explains what the functions do and their components.
 
 Each function differs from the standard GET requests that you would normally use. See the description of each function to see its enhanced capabilities.
+
+# Installation guide and examples of usage
+
+## Requirements
+
+The package in dependant on some other python packages, that you can find in the "requirements.txt" file. You can install them through git using the github page https://github.com/Fmazzesi/Zefix-Tools, or copy and paste the following code, remove the hashtags and run it.
+
+
+```python
+#!pip install googletrans==4.0.0-rc1
+#!pip install requests
+#!pip install pandas
+#!pip install matplotlib
+```
+
+## Importing Required Libraries
+
+After installing the necessary libraries, the next step is to import them into your Python script. This will enable you to utilize their functionalities for interacting with the Zefix API, handling data, and performing translations. 
+
+
+```python
+import requests
+import json
+import pandas as pd
+import matplotlib.pyplot as plt
+from googletrans import Translator
+import sys
+
+```
+
+# Installation
+
+- Go to this github url: https://github.com/Fmazzesi/Zefix-Advanced-Tool
+- Click the green buttom "<> CODE"
+- In the dropdown select download zip 
+- Open the folder where you downloaded the package
+- Unzip the file on your prefered location 
+- Go to that location and copy the path of the extracted folder. WARNING: you need to copy the path of the folder ONE level above the file zefix_tools
+
+Now, paste the path where indicated below, then run the cell:
+
+
+```python
+# Define the absolute path to the directory that contains the functions
+#codepath = r"Paste/Your/Path/Here"
+codepath = r"Your/Path/Here"
+
+
+# Add this directory to the Python search path 
+sys.path.append(codepath)
+```
+
+We can now import the module which is called zefix_tools all in one go using
+
+    from zefix_tools import *
+
+(in this tutorial, we will import them one-by-one in order to show them individually more clearly)
 
 # Function #1 - search_companies_named
 
