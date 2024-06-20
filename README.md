@@ -695,7 +695,8 @@ plot_acquisitions(ubs_ag_acquisitions_no_save_no_dataframe)
 
 
     
-![png](output_9_0.png)
+![Immagine grafico esempio](https://github.com/Fmazzesi/Zefix-Tools/assets/161603011/73e5e54f-568b-4531-9563-f5818f15327f)
+
     
 
 
