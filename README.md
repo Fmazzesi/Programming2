@@ -121,8 +121,9 @@ This function serves as an example to showcase the use of `check_acquirers` func
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-  ```
-##Credits
+
+###Credits
+
 -Mazzesi Filippo Luigi
 -Brenada Navarrete
 -Nicola Robatto
