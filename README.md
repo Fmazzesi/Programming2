@@ -778,11 +778,11 @@ acquirers_df
 
 ## References:
 
-OpenAI, ChatGPT. https://www.openai.com/chatgpt
+OpenAI, *ChatGPT*. https://www.openai.com/chatgpt
 
-GitHub, GitHub Copilot. https://github.com/features/copilot
+GitHub, *GitHub Copilot*. https://github.com/features/copilot
 
-Swiss Federal Office of Justice, Swiss Federal Registry of Commerce. https://www.zefix.admin.ch
+Swiss Federal Office of Justice, *Swiss Federal Registry of Commerce*. https://www.zefix.admin.ch
 
 ## License
 
