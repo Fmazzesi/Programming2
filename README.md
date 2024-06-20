@@ -118,6 +118,14 @@ This function serves as an example to showcase the use of `check_acquirers` func
   acquired_details_df = get_acquisitions_data('421132', df=True)
   print(acquired_details_df)
   ```
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+  
+##Credits
+-Mazzesi Filippo Luigi
+-Brenada Navarrete
+-Nicola Robatto
 
 ## FAQ
 
